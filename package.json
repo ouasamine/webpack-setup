@@ -2,7 +2,7 @@
   "name": "webpack-setup",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/ouasamine/webpack-setup/issues"
   },
-  "homepage": "https://github.com/ouasamine/webpack-setup#readme"
+  "homepage": "https://github.com/ouasamine/webpack-setup#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
 }
